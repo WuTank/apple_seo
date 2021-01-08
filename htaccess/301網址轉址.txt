@@ -1,0 +1,2 @@
+﻿RewriteEngine on
+RewriteRule (.*) https://www.test.com.tw/ [R=301,L]

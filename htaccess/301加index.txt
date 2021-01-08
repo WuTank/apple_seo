@@ -1,0 +1,4 @@
+﻿RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.test.com.tw [NC]
+RewriteRule ^/*$ https://www.test.com.tw/index.html [R=301,L]
+RewriteBase /

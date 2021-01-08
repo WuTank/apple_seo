@@ -1,0 +1,3 @@
+RewriteCond %{HTTP_HOST} www.test.com.tw
+RewriteCond %{REQUEST_URI} ^/page.php
+RewriteRule ^(.*)$ / [L]
